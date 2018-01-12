@@ -106,30 +106,30 @@ if (typeof Cocoon != 'undefined' && navigator.userAgent.match(/Android/i) && !se
 							self.onInterstitialAdHidden();
 					}
 					//
-					else if (event == "onRewardedVideoAdPreloaded") {
+					else if (result == "onRewardedVideoAdPreloaded") {
 						if (self.onRewardedVideoAdPreloaded)
 							self.onRewardedVideoAdPreloaded();
 					}
-					else if (event == "onRewardedVideoAdLoaded") {
+					else if (result == "onRewardedVideoAdLoaded") {
 						self._loadedRewardedVideoAd = true;
 
 						if (self.onRewardedVideoAdLoaded)
 							self.onRewardedVideoAdLoaded();
 					}
-					else if (event == "onRewardedVideoAdShown") {
+					else if (result == "onRewardedVideoAdShown") {
 						self._loadedRewardedVideoAd = false;
 						self._isShowingRewardedVideoAd = true;
 					
 						if (self.onRewardedVideoAdShown)
 							self.onRewardedVideoAdShown();
 					}
-					else if (event == "onRewardedVideoAdHidden") {
+					else if (result == "onRewardedVideoAdHidden") {
 						self._isShowingRewardedVideoAd = false;
 					
 						 if (self.onRewardedVideoAdHidden)
 							self.onRewardedVideoAdHidden();
 					}
-					else if (event == "onRewardedVideoAdCompleted") {
+					else if (result == "onRewardedVideoAdCompleted") {
 						if (self.onRewardedVideoAdCompleted)
 							self.onRewardedVideoAdCompleted();
 					}					
