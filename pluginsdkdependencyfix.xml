@@ -88,7 +88,7 @@
 -->		
 		<!-- dependency -->
 <!--		
-		<dependency id="cordova-plugin-ad-admobsdk" url="https://github.com/cranberrygame/cordova-plugin-ad-admobsdk" />
+		<dependency id="cordova-plugin-ad-admob-sdk" url="https://github.com/cranberrygame/cordova-plugin-ad-admob-sdk" />
     </platform>	
 -->	
 </plugin>
